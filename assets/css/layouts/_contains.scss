@@ -1,0 +1,42 @@
+.contains-wrapper {
+    background: rgba(162, 89, 255, 0.03);
+    padding: 100px 0;
+    h2 {
+        width: 53%;
+        padding-bottom: 80px;
+        margin: 0 auto;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 58px;
+        /* or 126% */
+        text-align: center;
+        color: #0A102F;
+    }
+    .icon-box {
+        padding: 30px;
+        border: 2px solid #0A102F;
+        border-radius: 10px;
+        transition: .3s;
+        &:hover {
+            border-top: 2px solid #0A102F;
+            border-bottom: 9px solid #0A102F;
+            border-right: 9px solid #0A102F;
+            border-left: 2px solid #0A102F;
+            border-radius: 10px;
+            outline: 0;
+        }
+        .icon {
+            img {
+
+            }
+        }
+        h3 {
+
+        }
+        p {
+
+        }
+    }
+}

@@ -1,0 +1,141 @@
+@media (min-width: 360px) and (max-width: 576px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+    /**customerce-wrapper start**/
+    .customerce-wrapper .hero-wrap h1 {
+        font-size: 45px;
+        line-height: 60px;
+        }
+    .customerce-wrapper .hero-wrap .button-area .btn .items1 a {
+        padding: 18px 20px;
+        }
+    /**customerce-wrapper End**/
+
+    /**contains-wrapper start here**/
+    .contains-wrapper h2 {
+        font-size: 40px;
+    }
+
+    .chanel-massaging .soluation-items h2 {
+        font-size: 41px;
+    }
+    .chanel-massaging .soluation-items p {
+        font-size: 14px;
+    }
+     .list-items span {
+        font-size: 13px;
+    }
+
+    .perfact-interface .perfact-items h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .perfact-interface .perfact-items p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 10px;
+    }
+    .btn {
+        padding-left: 0;
+    }
+
+    .trusted-milion .trusted-area h2 {
+        font-size: 40px;
+        line-height: 58px;
+        text-align: center;
+        width: 205%;
+    }
+
+    .trusted-milion .icon-boxx p {
+
+        padding-bottom: 30px;
+    }
+
+    
+    .choice-price .price-items h2 {
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .choice-price .button-items {
+
+        width: 40%;
+    }
+
+    .choice-price .button-items .btn a {
+        width: 100%;
+        padding: 17px 28px;
+    }
+    /**contains-wrapper end here**/  
+
+    /**price area start here**/
+    .choice-price .main-items {
+        padding: 40px 10px;
+        transition: 0.3s;
+    }
+    .choice-price .main-items .list-items i {
+        padding-bottom: 16px;
+        margin-right: 5px;
+    }
+
+    
+    .choice-price .main-items .Free-price h6 {
+        padding-bottom: 30px;
+    }
+
+    
+    .choice-price .main-items .button-wrap .btnn a {
+        padding: 15px 36px;
+    }
+    /**price area end here**/
+    /**integration start here**/
+    .integration .scemless-area h2 {
+        font-size: 29px;
+        line-height: 50px;
+    }
+    .integration .scemless-area p {
+        font-size: 15px;
+    }
+
+    
+    .integration .icon img {
+        margin-right: -21px;
+        margin-bottom: 19px;
+        padding-top: 20px;
+    }
+/**integration end here**/
+
+    /**signup-wrapper start here **/
+    .signup-wrapper .chhat-site h2 {
+        font-size: 30px;
+    }
+    /**signup-wrapper end here**/
+    /**footer area start here**/
+    
+    .Footer-area .logo-area p {
+        font-size: 15px;
+    }
+
+    
+    .Footer-area .primary-wrap h2 {
+        font-size: 13px;
+    }
+
+    .Footer-area .primary-wrap .menu-wrap ul li a {
+        font-size: 15px;
+    }
+
+    .Footer-area .hero-items h2 {
+        font-size: 13px;
+        line-height: 28px;
+    }
+    .Footer-area .icon-items i {
+        margin-right: 12px;
+    }
+    /**footer area end here**/
+}
+@media (min-width: 1200px) and (max-width: 1400px) { 
+    
+}

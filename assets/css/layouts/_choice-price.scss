@@ -1,0 +1,170 @@
+.choice-price {
+    padding: 100px 0;
+    background: rgba(162, 89, 255, 0.03);
+    .price-items {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        h2 {
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 46px;
+            line-height: 58px;
+            /* or 126% */
+            
+            text-align: center;
+            
+            /* Black */
+            
+            color: #0A102F;
+        }
+    }
+    .button-items {
+        text-align: center;
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        background-color: #0A102F;
+        width: 30%;
+        padding: 15px 0;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 3px;
+        .btn {
+            border: none;
+            margin-right: 14%;
+            a {
+                width: 100%;
+                text-decoration: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                background-color: #A259FF;
+                padding: 19px 58px;
+                border-radius: 3px;
+                left: 0;
+                text-align: center;
+                color: #fff;
+            }
+        }
+        .btn1 {
+            margin-right: 14%;
+            a {
+                text-decoration: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                text-align: center;
+                color: #fff;
+            }
+        }
+    } 
+
+    .main-items {
+        border: 2px solid #0A102F;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 40px 50px;
+        transition: .3s;
+        &:hover {
+            border-right: 7px solid #0A102F;
+            border-bottom: 7px solid #0A102F;
+        }
+        .Free-price {
+            text-align: center;
+            h5 {
+                /* Inter/Bold/20 */
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+                text-align: center;
+                /* Black */
+                color: #0A102F;
+            }
+            h2 {
+                /* Regular/58px */
+                padding-top: 30px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 34px;
+                font-style: bold;
+                line-height: 20px;
+                /* identical to box height, or 286% */
+                text-align: center;
+                /* Black */
+                color: #0A102F;
+                span {
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            h6 {
+                font-size: 14px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #0A102F;
+                opacity: 0.7;
+                padding-bottom: 60px;
+            }
+        }
+        .list-items {
+            i {
+                padding-bottom: 30px;
+                margin-right: 10px;
+                span {
+
+                }
+            }
+        }
+        .button-wrap {
+            .btnn {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                a {
+                /* Inter/Bold/16 */
+
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                text-align: center;
+                padding: 18px 50px;
+                border: 2px solid #0A102F;
+                /* Black */
+                color: #0A102F;
+                text-decoration: none;
+                border-radius: 3px;
+                transition: .3s;
+                &:hover {
+                    background-color: #A259FF;
+                    color: #fff;
+                    border: none;
+                    outline: 0;
+                }
+
+                }
+            }
+        }
+    }
+}

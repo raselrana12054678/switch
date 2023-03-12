@@ -1,0 +1,48 @@
+.perfact-interface {
+    padding: 70px 0;
+    .perfact-items {
+        padding-right: 24px;
+        h2 {
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 46px;
+            line-height: 58px;
+            color: #0A102F;
+            padding-bottom: 15px;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0A102F;
+            padding-bottom: 50px;
+        }
+        .btn {
+            a {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                text-decoration: none;
+                padding: 18px 42px;
+                background-color: #0A102F;
+                border-radius: 3px;
+                transition: .3s;
+                &:hover {
+                    background-color: #A259FF;
+                    border: none;
+                }
+            }
+        }
+    }
+    .img-items {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.sowfter-communication {
+    padding: 20px 0;
+    background-color: #0A102F ;
+    .sowfter-items {
+        display: flex;
+        .text-item {
+            h3 {
+                color: #fff;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 42px;
+                /* identical to box height, or 140% */
+                text-align: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+        .img-item {
+            img {
+
+            }
+        }
+        .text-item2 {
+            h3 {
+                color: #fff;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 42px;
+                /* identical to box height, or 140% */
+                text-align: center;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

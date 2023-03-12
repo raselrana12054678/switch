@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+.Header-wrapper {
+    .hero-items {
+        display: flex;
+        padding-top: 28px;
+        .logo-area {
+            flex-wrap: wrap;
+            flex-basis: 28%;
+            img {
+
+            }
+        }
+        .menu-area {
+            align-items: center;
+            vertical-align: middle;
+            ul {
+                display: flex;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        padding: 0 20px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #0A102F;
+                        &:hover {
+
+                        }
+                    }
+                }
+            }
+        }
+        .button-area {
+            display: flex;
+            margin-left: 6%;
+            .login-items {
+                margin-right: 26px;
+                a {
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #0A102F;
+                }
+            }
+            .signin-items {
+                a {
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    padding: 13px 33px;
+                    border: 1px solid #0A102F;
+                    background-color: #0A102F;
+                    outline: 0;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #fff;
+                    transition: .3s;
+                    border-radius: 3px;
+                    &:hover {
+                        background-color: #A259FF;
+                        border: none;
+                        outline: 0;
+                    }
+                }
+            }
+        }
+    }
+}

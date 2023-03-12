@@ -1,0 +1,53 @@
+.integration {
+    padding: 100px 0;
+    .scemless-area {
+        padding-right: 37px;
+        h2 {
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 46px;
+            line-height: 58px;
+            color: #0A102F;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0A102F;
+        }
+        .btn {
+            margin-top: 20px;
+            a {
+                /* Inter/Bold/16 */
+                text-decoration: none;
+                text-transform: capitalize;
+                border-radius: 3px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+                color: #fff;
+                text-align: center;
+                padding: 18px 42px;
+                background-color:#0A102F;
+                transition: .3s;
+                &:hover {
+                    background-color: #A259FF;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .icon {
+        font-size: 30px;
+        img {
+            margin-right: 24px;
+            margin-bottom: 30px;
+        }
+    }
+}

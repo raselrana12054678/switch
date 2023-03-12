@@ -1,0 +1,88 @@
+.Footer-area {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    .logo-area {
+        img {
+
+        }
+        p {
+            padding-top: 33px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0A102F;
+            opacity: 0.8;
+        }
+    }
+    .icon-items {
+        margin-top: 33px;
+        i {
+            margin-right: 23px;
+            left: 0;
+            font-size: 13px;
+            border: 1px solid rgba(162, 89, 255, 0.03);
+            background-color: rgba(162, 89, 255, 0.03);
+            padding: 10px 10px;
+            border-radius: 20px;
+            transition: .3s;
+            &:hover {
+                background-color: #0A102F;
+                color: #fff;
+            }
+        }
+    }
+    .primary-wrap  {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0A102F;
+        }
+        .menu-wrap {
+            margin-top: 30px;
+            ul {
+                padding-left: 0;
+                list-style: none;
+                li { 
+                    list-style: none;
+                    margin-bottom: 6px;
+                    a {
+                        text-decoration: none;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #0A102F;
+                        opacity: 0.8;
+                        &:hover {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .hero-items {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px; 
+        }
+        .button {
+            margin-top: 30px;
+            .btn {
+                border: none;
+                padding-left: 0;
+                a {
+                }
+            }
+        }
+    }
+}

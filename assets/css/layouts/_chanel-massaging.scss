@@ -1,0 +1,44 @@
+.chanel-massaging {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    .chating-image {
+        padding-left: 0;
+        img {
+            width: 100%;
+        }
+    }
+    .soluation-items {
+        h2 {
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 46px;
+            line-height: 58px;
+            color: #0A102F;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #0A102F;
+            opacity: 0.8;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        hr {
+
+        }
+        .list-items {
+            i {
+                padding-bottom: 20px;
+                margin-right: 10px;
+                span {
+                    padding-bottom: 20px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
